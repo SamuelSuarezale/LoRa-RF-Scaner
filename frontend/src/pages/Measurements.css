@@ -1,0 +1,35 @@
+.measurements {
+  padding: 2rem;
+  background-color: #0a0a0a;
+  min-height: calc(100vh - 60px);
+  color: white;
+}
+
+.measurements-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.measurements-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.scanning-status {
+  font-size: 0.8rem;
+  color: #00cc66;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #001a0e;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #00cc66;
+}

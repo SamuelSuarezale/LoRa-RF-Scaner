@@ -1,0 +1,72 @@
+.home {
+  padding: 2rem;
+  background-color: #0a0a0a;
+  min-height: calc(100vh - 60px);
+  color: white;
+}
+
+.home-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 1rem;
+}
+
+.home-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.home-header p {
+  color: #888888;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.status-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #111111;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.card h3 {
+  color: #888888;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.card-green {
+  border-color: #00cc66;
+  border-left: 3px solid #00cc66;
+}
+
+.card-green p {
+  color: #00cc66;
+}
+
+.card-red {
+  border-left: 3px solid #ff3333;
+}
+
+.card-red p {
+  color: #ff3333;
+}
